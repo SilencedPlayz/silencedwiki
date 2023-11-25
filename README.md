@@ -1,2 +1,2 @@
 # silencedwiki
-Make new website
+this sight is for testing purposes for now
