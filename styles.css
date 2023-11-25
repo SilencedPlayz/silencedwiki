@@ -39,3 +39,10 @@ body {
     transition: margin-left .5s;
     padding: 16px;
 }
+
+/* ... (existing CSS styles) ... */
+
+.open-btn {
+    font-size: 20px;
+    cursor: pointer;
+}
