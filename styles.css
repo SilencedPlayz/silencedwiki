@@ -40,9 +40,17 @@ body {
     padding: 16px;
 }
 
-/* ... (existing CSS styles) ... */
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 600px) {
+    .slider-menu {
+        padding-top: 15px;
+    }
 
-.open-btn {
-    font-size: 20px;
-    cursor: pointer;
+    .slider-menu a {
+        font-size: 18px;
+    }
+
+    .slider-menu .close-btn {
+        font-size: 25px;
+    }
 }
