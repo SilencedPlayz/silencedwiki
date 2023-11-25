@@ -3,19 +3,25 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.slider-menu {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-    background-color: #111;
+.menu-btn {
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
 }
 
-.slider-menu a {
-    padding: 15px 25px;
+.menu {
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.menu a {
+    padding: 15px;
     text-decoration: none;
     font-size: 20px;
     color: #818181;
@@ -23,34 +29,15 @@ body {
     transition: 0.3s;
 }
 
-.slider-menu a:hover {
+.menu a:hover {
     color: #f1f1f1;
 }
 
-.slider-menu .close-btn {
+.close-btn {
     position: absolute;
-    top: 0;
+    top: 20px;
     right: 25px;
     font-size: 30px;
-    margin-left: 50px;
-}
-
-.content {
-    transition: margin-left .5s;
-    padding: 16px;
-}
-
-/* Media Query for Mobile Devices */
-@media screen and (max-width: 600px) {
-    .slider-menu {
-        padding-top: 15px;
-    }
-
-    .slider-menu a {
-        font-size: 18px;
-    }
-
-    .slider-menu .close-btn {
-        font-size: 25px;
-    }
+    color: #818181;
+    cursor: pointer;
 }
